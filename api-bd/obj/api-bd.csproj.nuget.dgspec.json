@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lambo-ubuntu/API/bd-contacts-api/bd-contacts-api.csproj": {}
+    "/home/lambo-ubuntu/API/api-bd/api-bd.csproj": {}
   },
   "projects": {
-    "/home/lambo-ubuntu/API/bd-contacts-api/bd-contacts-api.csproj": {
+    "/home/lambo-ubuntu/API/api-bd/api-bd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lambo-ubuntu/API/bd-contacts-api/bd-contacts-api.csproj",
-        "projectName": "bd-contacts-api",
-        "projectPath": "/home/lambo-ubuntu/API/bd-contacts-api/bd-contacts-api.csproj",
+        "projectUniqueName": "/home/lambo-ubuntu/API/api-bd/api-bd.csproj",
+        "projectName": "api-bd",
+        "projectPath": "/home/lambo-ubuntu/API/api-bd/api-bd.csproj",
         "packagesPath": "/home/lambo-ubuntu/.nuget/packages/",
-        "outputPath": "/home/lambo-ubuntu/API/bd-contacts-api/obj/",
+        "outputPath": "/home/lambo-ubuntu/API/api-bd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lambo-ubuntu/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
